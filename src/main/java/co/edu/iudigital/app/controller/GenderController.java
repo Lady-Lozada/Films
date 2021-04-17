@@ -14,7 +14,7 @@ import co.edu.iudigital.app.service.iface.GenderService;
 
 @RestController
 @RequestMapping("/gender")
-//@CrossOrigin("*") // Sirve para controlar quien hace las peticiones, * siginifica que todos
+@CrossOrigin("*") // Sirve para controlar quien hace las peticiones, * siginifica que todos
 public class GenderController {
 
 	@Autowired
